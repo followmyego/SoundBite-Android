@@ -1,0 +1,2 @@
+include ':app', ':SlidingMenuLib-master', ':FFmpegAndroid'
+include ':android_Audio_Cuttermaster'

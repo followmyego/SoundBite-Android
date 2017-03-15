@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+
+    <ListView
+        android:layout_marginTop="130dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/soundBite_listView">
+    </ListView>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your Bites"
+            android:paddingTop="40dp"
+            android:paddingLeft="50dp"
+            android:textSize="28sp"
+            android:textColor="#FF5F5F"
+            android:textStyle="bold"
+            android:id="@+id/yourBites"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/pullout_design_2x"
+            android:scaleType="fitXY"
+            />
+
+
+
+
+</RelativeLayout>
